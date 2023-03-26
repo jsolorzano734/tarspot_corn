@@ -1,7 +1,6 @@
-#Tar spot 
+#Tar spot of corn inoculation method
 #========================packages===============================================
 library("tidyverse") #includes ggplot and for data management
-#theme_set(theme_light(base_size = 18, base_family = "Poppins")) #optional
 library("rcompanion") #to check normality & transformation
 library("olsrr") #to check normality
 library("multcompView") #to use multcompLetters4
@@ -11,8 +10,8 @@ library("MetBrewer") #colors
 
 #===========================data================================================
 #load data
-setwd("~/Library/CloudStorage/GoogleDrive-ortiz432@umn.edu/My Drive/Tar Spot of Corn Minnesota /inoculationTarSpot")
-signs <- read.csv("dataCollectedStromataperGenotype/allDataStromatandIncubation.csv")
+setwd("~/inoculationTarSpot")
+signs <- read.csv("data.csv") #will be provided
 str(signs)
 summary(signs)
 
