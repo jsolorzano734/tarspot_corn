@@ -4,7 +4,7 @@ library("tidyverse") #includes ggplot and for data management
 library("rcompanion") #to check normality & transformation
 library("multcompView") #to use multcompLetters4
 library("olsrr") #to check normality
-library("agricolae")
+library("agricolae") # for ANOVA
 library("MetBrewer") #colors
 
 #===========================data================================================
