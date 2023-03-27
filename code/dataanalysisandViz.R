@@ -2,10 +2,9 @@
 #========================packages===============================================
 library("tidyverse") #includes ggplot and for data management
 library("rcompanion") #to check normality & transformation
-library("olsrr") #to check normality
 library("multcompView") #to use multcompLetters4
+library("olsrr") #to check normality
 library("agricolae")
-library("rstatix") #rstatix provides pipe-friendly R functions for easy statistical analyses.
 library("MetBrewer") #colors
 
 #===========================data================================================
